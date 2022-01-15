@@ -1,0 +1,142 @@
+/* Pour l'ensemble de la page accueil */
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	margin: 0 auto;
+}
+
+.logo{
+	max-height: 100%;
+}
+
+header{
+	display: flex;
+	height: 50px;
+	background-color: #454845;
+	align-items: center;
+	position: fixed;
+	width: 100%;
+}
+
+nav{
+	display: flex;
+	justify-content: space-evenly;
+	width: 100%;
+}
+
+li.btn{
+	list-style-type: none;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+li.btn a{
+	text-decoration: none;
+	color: white;
+}
+
+li.btn a:hover{
+	color: #FED388;
+}
+/* Commun à toutes les sections */
+section{
+	margin: 50px;
+}
+
+.section-title{
+	font-size: 50px;
+	color: #051473;
+}
+
+.accroche{
+	font-size: 18px;
+	color: black;
+}
+
+/* Pour la section engagements */
+.engagements{
+	display:  flex;
+	flex-wrap: wrap;
+	flex: 1;
+	justify-content: space-evenly;
+}
+
+.engagements-info{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 200px;
+}
+
+.info-titre{
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.info-image{
+	max-width: 100%;
+}
+
+/* Pour le tableau des tarifs */
+table{
+	margin: auto;
+	margin-top: 30px;
+	border: solid 1px;
+	border-color: black;
+	border-collapse: collapse;
+}
+
+th{
+	background-color: grey;
+	padding: 15px;
+	border: solid 1px;
+	font-size: 16px;
+}
+
+td{
+	padding: 15px;
+	border: solid 1px;
+}
+
+.total{
+	background-color: #C7D8D9;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+/* Pour la section "Nous contacter" */
+.contacter{
+	width: 100%;
+	border: solid 1px #FFF;
+	background-color: grey;
+	display: flex;
+}
+
+.gauche{
+	width: 50%;
+}
+
+.droite{
+	width: 50%;
+}
+
+
+/* Pour le pied de page */
+footer{
+	display: flex;
+	background-color: #454845;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	height: 50px;
+	width: 100%;
+}
+
+p.footer{
+	font-size: 16px;
+	text-align: center;
+	font-weight: bold;
+}

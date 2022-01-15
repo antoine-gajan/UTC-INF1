@@ -1,0 +1,52 @@
+/* Pour le menu */
+
+/* 	A appliquer à l'ensemble du body */
+body{
+	margin: 0;
+}
+
+/* 	A appliquer à l'ensemble des puces */
+ul, li{
+	list-style-type: none;
+	margin-bottom: 10px;
+	margin-top: 0;
+	padding: 0;
+	text-align: center;
+
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+/* Pour les titres des différentes catégories */
+.categorie-titre{
+	font-weight: bold;
+	font-size: 25px;
+	background-color: #454845;
+	color: white;
+}
+
+
+/* Spécifique au lien vers l'accueil */
+.accueil{
+	height: 50px;
+}
+
+.accueil a{
+	font-size: 35px;
+	color: white;
+}
+
+.accueil a:hover{
+	color: #FED388;
+}
+
+
+/* Quand on passe le curseur sur un "bouton" */
+.categorie-btn:hover{
+	font-weight: bold;
+	background-color: #E2E7E3;
+	transition: 0,3s;
+}
