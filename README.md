@@ -12,4 +12,11 @@ __Options proposées par le site :__
 * Consulter le calendrier d'un élève
 * Noter les élèves ayant participé à une séance
 
+__Quelques images du site :__ 
+
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/86797909/162032291-f02409e2-8c38-464a-a2ad-c2bddedac40b.png"> <img width="210" alt="image" src="https://user-images.githubusercontent.com/86797909/162032499-1b47209b-1b3f-4c11-aff4-a4ef81d0257b.png"> <img width="227" alt="image" src="https://user-images.githubusercontent.com/86797909/162032951-864fe548-d55c-47f9-bfd6-c1f06f68d0a6.png">
+
+
+
+
 __Note obtenue : 20/20__
